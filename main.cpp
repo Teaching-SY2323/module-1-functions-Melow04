@@ -11,17 +11,17 @@ int main()
         << "-- Add 2 Values --\n"
         << "Enter x Values: ";
     cin >> x;
-    cout << "\nEnter y Value: ";
+    cout << "Enter y Value: ";
     cin >> y;
 
-    cout << "\n__________________\n";
+    cout << "__________________";
 
-    cout << "= " << Add2Values(x, y);
+    cout << Add2Values(x, y);
 
-    return 0;
+        return 0;
 }
 
 int Add2Values(int x, int y)
 {
-    // add codè here
+    return (x + y);
 }
